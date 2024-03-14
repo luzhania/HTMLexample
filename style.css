@@ -1,0 +1,28 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+thead {
+    background-color: #3498db; /* Azul más oscuro para el encabezado */
+    color: #fff; /* Texto en color blanco para mejor contraste */
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #3498db; /* Borde azul */
+}
+
+th {
+    font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #ecf0f1; /* Azul más claro para filas pares */
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #d1e8e9; /* Otra tonalidad de azul para filas impares */
+}
