@@ -26,3 +26,54 @@ tbody tr:nth-child(even) {
 tbody tr:nth-child(odd) {
     background-color: #d1e8e9; /* Otra tonalidad de azul para filas impares */
 }
+
+.horizontal-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center; /* Centrar el menú horizontalmente */
+}
+
+.horizontal-menu li {
+    display: inline-block; /* Mostrar elementos en línea */
+    margin-right: 20px; /* Ajustar espaciado entre elementos según sea necesario */
+}
+
+.horizontal-menu li:last-child {
+    margin-right: 0; /* Eliminar el margen derecho del último elemento */
+}
+
+.horizontal-menu li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 15px; /* Ajustar el espaciado interno según sea necesario */
+}
+
+.horizontal-menu li a:hover {
+    background-color: #f2f2f2; /* Cambiar el color de fondo al pasar el ratón */
+}
+
+img {
+    display: block; /* Hacer que la imagen sea un bloque para poder centrarla horizontalmente */
+    margin: 0 auto; /* Centrar la imagen horizontalmente */
+}
+/* Estilos para las figuras */
+figure {
+    text-align: center; /* Centra el contenido dentro de la figura */
+    margin-bottom: 20px; /* Espaciado entre las figuras */
+}
+
+/* Estilos para las imágenes dentro de las figuras */
+figure img {
+    display: block; /* Asegura que las imágenes no tengan espacio adicional debajo de ellas */
+    margin: 0 auto; /* Centra horizontalmente las imágenes */
+    max-width: 100%; /* Ajusta el tamaño máximo de la imagen para que no se desborde del contenedor */
+}
+
+/* Estilos para los subtítulos de las figuras */
+figcaption {
+    margin-top: 10px; /* Espacio entre la imagen y el subtítulo */
+    font-style: italic; /* Estilo del subtítulo */
+    color: #666; /* Color del subtítulo */
+    font-size: 14px; /* Tamaño de fuente del subtítulo */
+}
